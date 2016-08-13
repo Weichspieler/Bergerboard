@@ -119,7 +119,7 @@ public class GUI extends JFrame {
 		label.setBounds(109, 24, 645, 84);
 		contentPane.add(label);
 		
-		JLabel lblKellerkinderSoftwareDevelopment = new JLabel(" © 2016 Kellerkinder");
+		JLabel lblKellerkinderSoftwareDevelopment = new JLabel(" © 2016 Kellerkinder www.kellerkinder.xyz");
 		lblKellerkinderSoftwareDevelopment.setForeground(Color.BLUE);
 		lblKellerkinderSoftwareDevelopment.setFont(new Font("Arial", Font.ITALIC, 20));
 		lblKellerkinderSoftwareDevelopment.setBounds(32, 626, 409, 37);
