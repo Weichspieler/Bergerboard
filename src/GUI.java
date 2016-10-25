@@ -176,6 +176,7 @@ public class GUI extends JFrame {
 		textField_1.setColumns(10);
 		
 		JButton btnSave = new JButton("save");
+		btnSave.setEnabled(false);
 		btnSave.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				speichern();
@@ -185,6 +186,7 @@ public class GUI extends JFrame {
 		contentPane.add(btnSave);
 		
 		JButton btnLoad = new JButton("load");
+		btnLoad.setEnabled(false);
 		btnLoad.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				laden();
